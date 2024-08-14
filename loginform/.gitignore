@@ -1,16 +1,7 @@
+# Ignore sensitive files
 .env
-
-# Django migrations
-*/migrations/*
-
-# Database files
-db.sqlite3
-
-# Python cache files
-__pycache__/
+loginform/settings.py
+*.sqlite3
+static/css/*.png
 *.pyc
-*.pyo
-
-# IDE settings
-.vscode/
-.idea/
+__pycache__/
