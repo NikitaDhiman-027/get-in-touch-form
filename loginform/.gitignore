@@ -1,4 +1,3 @@
-# Environment files
 .env
 
 # Django migrations
