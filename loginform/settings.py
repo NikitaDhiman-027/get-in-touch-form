@@ -57,7 +57,7 @@ WSGI_APPLICATION = 'loginform.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / config('DATABASE_NAME', default='db.sqlite3'),
+        'NAME': BASE_DIR/config('DATABASE_NAME', default='db.sqlite3'),
         'USER': config('DATABASE_USER', default=''),
         'PASSWORD': config('DATABASE_PASSWORD', default=''),
     }
